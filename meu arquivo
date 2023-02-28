@@ -1,4 +1,199 @@
-//Operadores Lógicos
+
+//Opefun main() {
+    //Tipos de variáveis: desafio p/ casa - NÃO É OBRIGATÓRIO!!!(OPCIONAL)
+    //
+    //String -armazenar valores de tipo texto - dentro de "" --> ex: "abóbora"
+    //Int -armazena números inteiros --> 7042
+    //Float - armazena números reais (no geral) -necessita de um f no valor -->72.24f
+    //Double - armazena números quebrados (de forma arredondada) -->7.45
+    //Long - armazena números longos -->5545664845489
+    //Boolean - verdadeiro ou falso --> true,false
+    /*
+    var cr7 = "cristiano Ronaldo"
+    var champion = 5
+    var Altura = 1.87
+
+   //Concatenação
+   
+  print ("o nome dele é" + cr7 + " ele tem" + champion)
+  println ("titulos de Champions League e ele tem" + Altura +"de altura SIUUU")
+  
+  var LaPulga = "Lionel Messi"
+  var champions = 4
+  var alturadele = 1.02
+    
+ print ("o nome dele é $LaPulga,ele tem $champions titulos de champions,e ele tem apenas $alturadele de altura")
+*/
+    
+    /*
+    var camis = "Camila Silva"
+    var idade = 17
+    var altura = 1.58
+    var sonhos = 80.00f
+    var artistas = 1025849
+    
+    
+    
+    println ("meu nome é" +camis+ " eu tenho " + idade)
+  println (" e tenho" + altura +"de altura")
+  println ("possuo essa quantidade de" +sonhos+ "sonhos" )
+  println ("e gosto no total de" +artistas+ "artistas")
+*/
+
+
+
+// Operadores matemáticos
+// + => adição
+// - => subtração
+// / => divisão
+// * => multiplicação
+// % => módulo
+// 
+//println(47 + 8)
+//
+//Operadores Relacionais
+//
+//
+// == => igual a...
+//!= =>  diferente de...
+//>=> maior que...
+//<=> menor que...
+//>= -> maior ou igual a...
+//<= -> menor ou igual a...
+
+
+
+
+
+
+
+
+}
+  //Condições
+    //
+    //condição simples
+    //
+    // if --> se...
+    // else ---> senão...
+    /*
+    var LembreiDoChocolate = "sim"
+    
+    if(LembreiDoChocolate == "sim"){
+        println("vou entregar o chocolate para você")
+     }else{
+        println("chocolate pra todo mundo")
+	}
+
+
+
+  var VouAoParque = ""
+    
+    if(VouAoParque == "sim"){
+        println("vou ir ao parque com você")
+    }else{
+        println("irei ao parque com ninguém")
+	}
+    */
+  //
+ //
+//Condições compostas
+ /*
+ var corações = 5
+    
+ if(corações == 5){
+     println ("Você está ótimo!! Bom pra você")
+}else if(corações == 4){
+    println("Cê tá bem")
+}else if(corações == 3){
+    println("vc tá ok, pode cumer miojo")
+}else if(corações == 2){
+    println("vc não está muito bem!! se cuida!culpa do miojo")
+}else if(corações == 1){
+    println("Você está morrendeo, você tem direito a um advogado e a uma ligação")
+}else{
+    println("Tu tá morto :),novo reforço do Vascao")
+}
+*/
+
+    
+var idade = 3
+ 
+if(idade <= 3){
+    println("Você é um nenê")
+}else if(idade <= 12){
+    println("Você é muito infantil!!")
+}else if(idade <= 18){
+    println("Tu é jovem! aproveite sua vida")
+}else if(idade <= 60){
+    println("Tu é adulto!! Pague a conta")
+}else if(idade > 60){
+    println("Que que há velhinho?")
+}else{
+    println("você não existe!!!")
+     
+//Condições
+    //
+    //condição simples
+    //
+    // if --> se...
+    // else ---> senão...
+    /*
+    var LembreiDoChocolate = "sim"
+    
+    if(LembreiDoChocolate == "sim"){
+        println("vou entregar o chocolate para você")
+     }else{
+        println("chocolate pra todo mundo")
+	}
+
+
+
+  var VouAoParque = ""
+    
+    if(VouAoParque == "sim"){
+        println("vou ir ao parque com você")
+    }else{
+        println("irei ao parque com ninguém")
+	}
+    */
+  //
+ //
+//Condições compostas
+ /*
+ var corações = 5
+    
+ if(corações == 5){
+     println ("Você está ótimo!! Bom pra você")
+}else if(corações == 4){
+    println("Cê tá bem")
+}else if(corações == 3){
+    println("vc tá ok, pode cumer miojo")
+}else if(corações == 2){
+    println("vc não está muito bem!! se cuida!culpa do miojo")
+}else if(corações == 1){
+    println("Você está morrendeo, você tem direito a um advogado e a uma ligação")
+}else{
+    println("Tu tá morto :),novo reforço do Vascao")
+}
+*/
+
+    
+var idade = 3
+ 
+if(idade <= 3){
+    println("Você é um nenê")
+}else if(idade <= 12){
+    println("Você é muito infantil!!")
+}else if(idade <= 18){
+    println("Tu é jovem! aproveite sua vida")
+}else if(idade <= 60){
+    println("Tu é adulto!! Pague a conta")
+}else if(idade > 60){
+    println("Que que há velhinho?")
+}else{
+    println("você não existe!!!")
+    
+    Operadores Lógicos
     //
     //são usados quando queremos comparar mais de uma coisa na mesma condição
     //
