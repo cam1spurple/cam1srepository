@@ -34,6 +34,8 @@
     
     
     
+    
+    
     println ("meu nome é" +camis+ " eu tenho " + idade)
   println (" e tenho" + altura +"de altura")
   println ("possuo essa quantidade de" +sonhos+ "sonhos" )
@@ -248,3 +250,53 @@ if(idade <= 3){
   
   var Alemanhaperdeu = false
   var BrasilCampeão = false
+  
+  /*
+    val Brasil = true
+    val Alemanha = false
+    val Marrocos = false
+    
+    
+   if(!Alemanha && Brasil && !Marrocos){
+       println("Pode isso Arnaldo, Brasil classificado!!! Rumo ao hexa! Haja coração")
+   }else{
+       println("Acabooooou,eu só queria dar alegria pro meu povo")
+   }
+  */
+   
+   // When - Quando
+   // 
+   // Quando uma determinada condição for verdadeira, outra determinada  
+   // condição será executada
+   // 
+   // Estrutura do When:
+   // 
+   // When(var){
+   // valor-> ação a ser executada
+   // outroValor -> ação
+   // maisum -> ação
+   // outro-> ação
+   // else -> ação
+   // }
+   // 
+   var mes = 7
+    
+   when(mes){
+     1 -> println("Acapuco  - MEX")
+     2 -> println("Paris - FRA")
+     3 -> println("Berlim - ALE")
+     4 -> println("Monaco - MON")
+     5 -> println("Pequim - CHI")
+     6 -> println("Acre - BRA")
+     7 -> println("Roma - ITA")
+     8 -> println("Atenas - GRE")
+     9 -> println("Madrid - ESP")
+    10 -> println("Manchester - ING")
+    11 -> println("Dubai - EAU")
+    else -> println("São Paulo - BRA")
+
+   }
+  
+    
+    
+  
