@@ -356,4 +356,59 @@ if(idade <= 3){
         println("$anos não é bissexto")
         anos++
     
+    //Laços de repetição
+    //While
+    //Do..While
+    //
+    //f or - Par/a..
+    //
+    //for - para cada item em uma lista ou qualquer tipo de coleçaõ será executado uma 
+    //determinada ação
+    //
+    //Estrutura do for:
+    //for (item in list/colection){
+    //ação
+    //
+   //Exercício: faça a tabuada de um número de sua escolha (sem a do 0, a do 1,do 2 e do 10)
+   //. Observação: precisa utilizar o laço for
+   
+   
+    var tabuada = ("5 10 15 20 25 30 35 40 45 50")
+     for (item in tabuada){
+        println(item)
+        
+         
+   //
+   //      
+   // Repeat - Repita...
+   // 
+   // Uma determinada ação será repitida um determinado número de vezes 
+   // 
+     
+   
+     repeat (10){  
+         println("||---------------tartaruga-----------||")
+         
+     }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+     }}
+                
+    
+     
+    
+    
+    
+    
+    
+
+    
+    
   
