@@ -563,9 +563,133 @@ class Paciente(){
         
         
         
-     }}
+     }
+     -------------------------
                 
+    fun main() {
+   
+    var jogador1 = JogadorDeFutebol("Yuri Alberto", "Corinthians",9,"Brasil","Nike", "Atacante",100.0)
+    var jogador2 = JogadorDeFutebol("Gil", "Corinthians",4,"Brasil","Nike", "Zagueiro",100.0)
+    var jogador3 = JogadorDeFutebol("Fagner", "Corinthians",23,"Brasil","Nike", "Meia atacante",100.0)
+    var jogador4 = JogadorDeFutebol("Bruno Méndez", "Corinthians",25,"Brasil","Nike", "Lateral-direito",100.0)
+    var jogador5 = JogadorDeFutebol("Róger Guedes", "Corinthians",10,"Brasil","Nike", "Atacante",100.0)
+    var jogador6 = JogadorDeFutebol("Paulinho", "Corinthians",15,"Brasil","Nike", "Alas",100.0)
+    var jogador7 = JogadorDeFutebol("Adson", "Corinthians",28,"Brasil","Nike", "Lateral-esquerdo",100.0)
+    var jogador8 = JogadorDeFutebol("Cássio", "Corinthians",12,"Brasil","Nike", "Goleiro",300.0)
+    var jogador9 = JogadorDeFutebol("Roni", "Corinthians",29,"Brasil","Nike", "Meia",100.0)
+    var jogador10 =JogadorDeFutebol("Giuliano", "Corinthians",20,"Brasil","Nike", "Volante",100.0)
+    var jogador11 =JogadorDeFutebol("Fábio Santos", "Corinthians",6,"Brasil","Nike", "Centroavante",100.0)
     
+  
+  
+    println(jogador1.nome)
+    println(jogador1.time)
+    println(jogador1.numeroDaCamisa)
+    println(jogador1.nacionalidade)
+    println(jogador1.patrocinio) 
+    println(jogador1.posicao) 
+    println(jogador1.preco)
+                              
+    println(jogador2.nome)
+    println(jogador2.time)
+    println(jogador2.numeroDaCamisa)
+    println(jogador2.nacionalidade)
+    println(jogador2.patrocinio) 
+    println(jogador2.posicao) 
+    println(jogador2.preco)
+                             
+    println(jogador3.nome)
+    println(jogador3.time)
+    println(jogador3.numeroDaCamisa)
+    println(jogador3.nacionalidade)
+    println(jogador3.patrocinio) 
+    println(jogador3.posicao) 
+    println(jogador3.preco)
+                             
+    println(jogador4.nome)
+    println(jogador4.time)
+    println(jogador4.numeroDaCamisa)
+    println(jogador4.nacionalidade)
+    println(jogador4.patrocinio) 
+    println(jogador4.posicao) 
+    println(jogador4.preco)
+    
+    println(jogador5.nome)
+    println(jogador5.time)
+    println(jogador5.numeroDaCamisa)
+    println(jogador5.nacionalidade)
+    println(jogador5.patrocinio) 
+    println(jogador5.posicao) 
+    println(jogador5.preco)
+                             
+    println(jogador6.nome)
+    println(jogador6.time)
+    println(jogador6.numeroDaCamisa)
+    println(jogador6.nacionalidade)
+    println(jogador6.patrocinio) 
+    println(jogador6.posicao) 
+    println(jogador6.preco)
+                             
+    println(jogador7.nome)
+    println(jogador7.time)
+    println(jogador7.numeroDaCamisa)
+    println(jogador7.nacionalidade)
+    println(jogador7.patrocinio) 
+    println(jogador7.posicao) 
+    println(jogador7.preco)
+                             
+    println(jogador8.nome)
+    println(jogador8.time)
+    println(jogador8.numeroDaCamisa)
+    println(jogador8.nacionalidade)
+    println(jogador8.patrocinio) 
+    println(jogador8.posicao) 
+    println(jogador8.preco)
+    
+    println(jogador9.nome)
+    println(jogador9.time)
+    println(jogador9.numeroDaCamisa)
+    println(jogador9.nacionalidade)
+    println(jogador9.patrocinio) 
+    println(jogador9.posicao) 
+    println(jogador9.preco)
+    
+    println(jogador10.nome)
+    println(jogador10.time)
+    println(jogador10.numeroDaCamisa)
+    println(jogador10.nacionalidade)
+    println(jogador10.patrocinio) 
+    println(jogador10.posicao) 
+    println(jogador10.preco)
+     
+    
+    println(jogador11.nome)
+    println(jogador11.time)
+    println(jogador11.numeroDaCamisa)
+    println(jogador11.nacionalidade)
+    println(jogador11.patrocinio) 
+    println(jogador11.posicao) 
+    println(jogador11.preco)
+                             
+                             
+    
+    //Exercício - Faça a escalação do seu time exibindo nome,número da camisae posição
+    //maxímo 11 jogadores
+    //permitido inventar  jogadores
+   
+   
+ }
+class JogadorDeFutebol(var nome: String,
+                       var time: String,
+                       var numeroDaCamisa: Int,
+                       var nacionalidade: String,
+                       var patrocinio: String,
+                       var posicao: String,
+                       var preco: Double){
+      
+     
+      
+   
      
     
     
